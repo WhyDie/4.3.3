@@ -8,7 +8,7 @@ public class SeparateChaining<K, V> {
     private int countOfItems;
 
     public SeparateChaining() {
-        this.capacity = 10; // начальная емкость
+        this.capacity = 10;
         this.buckets = new ArrayList<>(capacity);
         this.countOfItems = 0;
 
